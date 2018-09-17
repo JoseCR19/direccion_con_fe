@@ -68,7 +68,7 @@
 
         </div>
         <div class="row">
-          <div class="col-lg-3 col-md-6 mb-6 mb-lg-0">
+          <div class="col-lg-4 col-md-6 mb-6 mb-lg-0">
             <span class="service-icon rounded-circle mx-auto mb-3">
               <i class="icon-screen-smartphone"></i>
             </span>
@@ -82,7 +82,7 @@
                 @endforeach
             </select>
           </div>
-          <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+          <div class="col-lg-4 col-md-6 mb-5 mb-md-0">
             <span class="service-icon rounded-circle mx-auto mb-3">
               <i class="icon-like"></i>
             </span>
@@ -91,7 +91,7 @@
             </h4>
               <div id="metasss"></div>
           </div>
-          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+          <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
             <span class="service-icon rounded-circle mx-auto mb-3">
               <i class="icon-pencil"></i>
             </span>
@@ -105,7 +105,9 @@
               @endforeach
             </select>
           </div>
-          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+        </div>
+        <div class="row mt-5">
+          <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
             <span class="service-icon rounded-circle mx-auto mb-3">
               <i class="icon-pencil"></i>
             </span>
@@ -120,7 +122,7 @@
             </select>
           </div>
 
-          <div class="col-lg-3 col-md-6">
+          <div class="col-lg-4 col-md-6">
             <span class="service-icon rounded-circle mx-auto mb-3">
               <i class="icon-mustache"></i>
             </span>
@@ -134,7 +136,7 @@
               @endforeach
             </select>    
           </div>
-          <div class="col-lg-3 col-md-6">
+          <div class="col-lg-4 col-md-6">
             <span class="service-icon rounded-circle mx-auto mb-3">
               <i class="icon-mustache"></i>
             </span>
@@ -148,14 +150,12 @@
               @endforeach
             </select>    
           </div>
-
-          <div>
-            <button type="button" class="btn btn-success" id="agregar">Agregar</button>
+          <div class="mt-4 mb-5">
+            <button type="button" class="ml-5 btn btn-success" id="agregar">Agregar</button>
           </div>
+
         </div>
-        <div>
-        
-        </div>
+
         <div>
           <table id="Meta_Principal" class="table table-striped table-bordered table-condensed table-hover">
               <thead style="background-color:#A9D0F5">
@@ -171,7 +171,7 @@
           </table>
         </div>
         <div>
-        <button type="button" class="btn btn-success" id="guardar">Guardars</button>
+        <button type="button" class="btn btn-success" id="guardar">Guardar</button>
         </div>
       </div>
     </section>
