@@ -13,7 +13,7 @@ class Objetivo extends Model
     protected $filleable = [
 
     	'objetivo_empresarial'
-    ]
+    ];
 
     protected $guarded = [];
 }

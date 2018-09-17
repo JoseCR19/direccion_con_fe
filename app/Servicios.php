@@ -13,5 +13,5 @@ class Servicios extends Model
     protected $filleable = [
 
     	'servicios_ti'
-    ]
+    ];
 }

@@ -17,3 +17,5 @@ Route::get('/', function () {
 
 Route::get('objetivos',['as'=>'objetivo','uses'=>'ObjetivoController@index']);
 Route::get ('ob/create',['as'=>'objetivo-create','uses'=>'ObjetivoController@create']);
+Route::post ('ob/meta',['as'=>'metas','uses'=>'MetaController@metasObEm']);
+Route::post ('ob/guardar',['as'=>'objetivo-guardar','uses'=>'ObjetivoController@store']);

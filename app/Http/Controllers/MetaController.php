@@ -3,7 +3,9 @@
 namespace Direccion\Http\Controllers;
 
 use Illuminate\Http\Request;
-
+use Direccion\Http\Requests;
+use Direccion\Http\Controllers\Controller;
+use DB;
 class MetaController extends Controller
 {
     /**
@@ -25,7 +27,19 @@ class MetaController extends Controller
     {
         //
     }
-
+    public function metasObEm(Request $request)
+    {
+        // Textos completos	
+        // id_m
+        // metas_empresariales
+        // Objetivo_Empresarial_id_oe
+        $idobem = $request->input('idObjEmpre');
+        $meta=DB::table('Metas')
+        ->where('Objetivo_Empresarial_id_oe','=',$idobem)
+        ->select('id_m','metas_empresariales','Objetivo_Empresarial_id_oe')
+        ->get();
+        return['msg'=> $meta];
+    }
     /**
      * Store a newly created resource in storage.
      *
